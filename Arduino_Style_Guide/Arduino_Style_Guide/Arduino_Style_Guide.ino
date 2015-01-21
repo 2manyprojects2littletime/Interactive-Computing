@@ -11,8 +11,8 @@
     Comments are there for people to read, not machines.
  */
  
- // This is a single-line comment, or inline comment.
- // An inline comment starts at the token '//' and goes to the end of that line.
+// This is a single-line comment, or inline comment.
+// An inline comment starts at the token '//' and goes to the end of that line.
 
 /*
     This file is a style guide for 'Interactive Computing.'
@@ -59,14 +59,27 @@ char eh = 'a';  // Of note:
                 //  the reference is a variable because we haven't put
                 //  any other declarations and variable is the default.
 
-int sum;        // In this statement we are creating a reference called 
+int sum;    // In this statement we are creating a reference called 
                 //  'sum,' we aren't initializing the reference with
                 //  a value like we have above
 
-sum = 1 + 2;    // There are two operations in this statement.
+/*
+  
+*/
+int countLoavesOfBreadInPantry() {
+  sum = 1 + 2;    // There are two operations in this statement.
                 // First, the RHS is evaluated:
                 //  the RHS in this statement is the addition operation
                 //  the result of the operation is then assigned to the
                 //  reference 'sum' that was made above.
+  return sum;
+}
 
+int bakeBread(int numberOfLoavesToBake) {
+  
+}
+
+void setup() {}
+
+void loop() {}
 
